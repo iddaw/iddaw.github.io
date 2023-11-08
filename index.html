@@ -24,7 +24,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   
-  <title>IDD-3D: Indian Driving Dataset for 3D Unstructured Road Scenes</title>
+  <title>IDD-AW: A Benchmark for Safe and Robust Segmentation of Drive Scenes
+    in Unstructured Traffic and Adverse Weather</title>
   <!-- <link rel="icon" type="image/x-icon" href="static/images/favicon.ico"> -->
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
@@ -52,17 +53,18 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">IDD-3D: Indian Driving Dataset for 3D Unstructured Road Scenes</h1>
+            <h1 class="title is-1 publication-title">IDD-AW: A Benchmark for Safe and Robust Segmentation of Drive Scenes
+              in Unstructured Traffic and Adverse Weather</h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
-              <span class="author-block"><a href="https://shubham1810.github.io/" target="_blank">Shubham Dokania</a><sup>1</sup>,</span>
+              <!-- <span class="author-block"><a href="https://shubham1810.github.io/" target="_blank">Shubham Dokania</a><sup>1</sup>,</span>
               <span class="author-block"><a href="https://scholar.google.co.in/citations?user=81UGxdYAAAAJ&hl=en" target="_blank">A. H. Abdul Hafez</a><sup>2</sup>,</span>
               <span class="author-block"><a href="https://sites.google.com/view/anbumani/" target="_blank">Anbumani Subramaniam</a><sup>1</sup></span>
               <br>
               <span class="author-block"><a href="https://cseweb.ucsd.edu/~mkchandraker/" target="_blank">Manmohan Chandraker</a><sup>3</sup></span>
-              <span class="author-block"><a href="https://faculty.iiit.ac.in/~jawahar/" target="_blank">C.V. Jawahar</a><sup>1</sup></span>
+              <span class="author-block"><a href="https://faculty.iiit.ac.in/~jawahar/" target="_blank">C.V. Jawahar</a><sup>1</sup></span> -->
               </div>
-              
+<!--               
               <div class="is-size-5 publication-authors">
                 <span class="author-block"><sup>1</sup>IIIT Hyderabad, India, <sup>2</sup>Hasan Kalyoncu University, Turkey, <br><sup>3</sup> UC San Diego, USA<br>WACV 2023</span>
                 <!-- <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span> -->
@@ -71,7 +73,7 @@
               <div class="column has-text-centered">
                 <div class="publication-links">
                   <!-- Arxiv PDF link -->
-                  <span class="link-block">
+                  <!-- <span class="link-block">
                     <a href="https://openaccess.thecvf.com/content/WACV2023/papers/Dokania_IDD-3D_Indian_Driving_Dataset_for_3D_Unstructured_Road_Scenes_WACV_2023_paper.pdf" target="_blank"
                       class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
@@ -80,9 +82,9 @@
                       <span>Paper</span>
                     </a>
                   </span>
-                  
+                   -->
                   <!-- Supplementary PDF link -->
-                  <span class="link-block">
+                  <!-- <span class="link-block">
                     <a href="static/pdfs/IDD3D_WACV_supplementary.pdf" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
@@ -90,10 +92,10 @@
                     </span>
                     <span>Supplementary</span>
                   </a>
-                </span>
+                </span> -->
                 
                 <!-- Github link -->
-                <span class="link-block">
+                <!-- <span class="link-block">
                   <a href="https://github.com/shubham1810/idd3d_kit" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
@@ -101,10 +103,10 @@
                   </span>
                   <span>Code</span>
                 </a>
-              </span>
+              </span> -->
               
               <!-- ArXiv abstract Link -->
-              <span class="link-block">
+              <!-- <span class="link-block">
                 <a href="https://arxiv.org/abs/2210.12878" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
@@ -112,7 +114,7 @@
                   </span>
                   <span>arXiv</span>
                 </a>
-              </span>
+              </span> -->
             </div>
           </div>
         </div>
@@ -125,7 +127,7 @@
 
 
 <!-- Create section for Teaser Image and a caption -->
-<section class="hero teaser">
+<!-- <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body has-text-centered">
             <img src="static/images/teaser_image.png" alt="IDD-3D Teaser image" width="80%"/>
@@ -135,7 +137,7 @@ scenarios, LiDAR data with annotations, and a sample of LiDAR
 point clouds projected on camera data
       </h2>
     </div>
-  </div>
+  </div> -->
 
 <!-- Paper abstract -->
 <section class="section hero is-light">
@@ -145,8 +147,10 @@ point clouds projected on camera data
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Autonomous driving and assistance systems rely on annotated data from traffic and road scenarios to model and learn the various object relations in complex real-world scenarios. Preparation and training of deploy-able deep learning architectures require the models to be suited to different traffic scenarios and adapt to different situations. Currently, existing datasets, while large-scale, lack such diversities and are geographically biased towards mainly developed cities. An unstructured and complex driving layout found in several developing countries such as India poses a challenge to these models due to the sheer degree of variations in the object types, densities, and locations. To facilitate better research toward accommodating such scenarios, we build a new dataset, {IDD-3D}, which consists of multi-modal data from multiple cameras and LiDAR sensors with 12k annotated driving LiDAR frames across various traffic scenarios. We discuss the need for this dataset through statistical comparisons with existing datasets and highlight benchmarks on standard 3D object detection and tracking tasks in complex layouts.
-          </p>
+            Large-scale deployment of fully autonomous vehicles requires a very high degree of robustness to unstructured traffic, weather conditions, and should prevent unsafe mispredictions. While there are several datasets and benchmarks focusing on segmentation for drive scenes, they are not specifically focused on safety and robustness issues.
+We introduce the IDD-AW dataset, which provides 5000 pairs of high-quality images with pixel-level annotations, captured under rain, fog, low light, and snow in unstructured driving conditions. As compared to other adverse weather datasets,
+we provide i.) more annotated images, ii.) paired Near-Infrared (NIR) image for each frame, iii.) larger label set with a 4-level label hierarchy to capture unstructured traffic conditions. We benchmark state-of-the-art models for semantic
+segmentation in IDD-AW. We also propose a new metric called “Safe mean Intersection over Union (Safe mIoU)” for hierarchical datasets which penalizes dangerous mispredictions that are not captured in the traditional definition of mean Intersection over Union (mIoU). The results show that IDD-AW is one of the most challenging datasets to date for these tasks. The dataset and code will be available here: http://iddaw.github.io.          </p>
         </div>
       </div>
     </div>
@@ -155,7 +159,7 @@ point clouds projected on camera data
 <!-- End paper abstract -->
 
 <!-- Make a section for a summary of IDD-3D -->
-<section class="section hero is-dark">
+<!-- <section class="section hero is-dark">
   <div class="container is-max-desktop">
     <div class="columns ">
       <div class="column is-four-fifths">
@@ -177,11 +181,11 @@ point clouds projected on camera data
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
 
 <!-- Image carousel -->
-<section class="hero is-small">
+<!-- <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
       <h2 class="title is-3">Some Interesting Cases</h2>
@@ -220,11 +224,11 @@ point clouds projected on camera data
       </div>
     </div>
   </div>
-</section>
+</section> -->
 <!-- End image carousel -->
 
 <!-- Make a section for a summary of IDD-3D -->
-<section class="section hero is-dark">
+<!-- <section class="section hero is-dark">
   <div class="container is-max-desktop">
     <div class="columns ">
       <div class="column is-four-fifths">
@@ -243,7 +247,7 @@ point clouds projected on camera data
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
 
 
@@ -251,7 +255,7 @@ point clouds projected on camera data
 
 
 <!-- Paper poster -->
-<section class="hero is-small is-light">
+<!-- <section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
       <h2 class="title">Poster</h2>
@@ -260,16 +264,16 @@ point clouds projected on camera data
       
     </div>
   </div>
-</section>
+</section> -->
 <!--End paper poster -->
 
 
 <!--BibTex citation -->
-<section class="section" id="BibTeX">
+<!-- <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
     <pre><code>
-@InProceedings{Dokania_2023_WACV,
+@InProceedings{_2024_WACV,
   author    = {Dokania, Shubham and Hafez, A. H. Abdul and Subramanian, Anbumani and Chandraker, Manmohan and Jawahar, C. V.},
   title     = {IDD-3D: Indian Driving Dataset for 3D Unstructured Road Scenes},
   booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
@@ -279,7 +283,7 @@ point clouds projected on camera data
 }
     </code></pre>
   </div>
-</section>
+</section> -->
 <!--End BibTex citation -->
 
 
