@@ -1,5 +1,5 @@
-# IDD-3D: Indian Driving Dataset for 3D Unstructured Road Scenes
-Website for the IDD-3D Dataset (WACV 2023)
+# IDD-AW: A Benchmark for Safe and Robust Segmentation of Drive Scenes in Unstructured Traffic and Adverse Weather
+Website for the IDD-AW Dataset (WACV 2024)
 
 ## Acknowledgments
 This website is based on the nice template from [Academic Project Page Template](https://github.com/eliahuhorwitz/Academic-project-page-template)
